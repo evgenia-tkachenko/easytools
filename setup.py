@@ -1,3 +1,4 @@
+import easytools
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -5,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='easytools',
-    version='0.0.1',
+    version='0.0.3',
     author='Evgenia Tkachenko',
     author_email='evgeniatkachenko24@gmail.com',
     description='Testing installation of Package',
@@ -16,6 +17,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/evgenia-tkachenko/easytools/issues"
     },
     license='MIT',
-    packages=['easytools'],
-    install_requires=['requests'],
+    # packages=setuptools.find_packages(),
+    packages=[easytools],
+    install_requires=['numpy'],
 )
