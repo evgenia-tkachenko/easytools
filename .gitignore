@@ -1,4 +1,5 @@
 venv/
 *.ipynb_checkpoints/
 *.ipynb
-easytools/__pycache__/
+easytools/__pycache__/*
+README.md
