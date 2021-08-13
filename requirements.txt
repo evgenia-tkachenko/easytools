@@ -72,4 +72,5 @@ twine==3.4.2
 urllib3==1.26.6
 wcwidth==0.2.5
 webencodings==0.5.1
+wheel==0.37.0
 zipp==3.5.0
