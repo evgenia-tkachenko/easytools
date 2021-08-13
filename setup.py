@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='easytools',
-    version='0.0.0',
+    version='0.0.1',
     author='Evgenia Tkachenko',
     author_email='evgeniatkachenko24@gmail.com',
     description='Testing installation of Package',
